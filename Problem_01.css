@@ -6,6 +6,13 @@ header{
     font-size: xx-large;
     font-weight: bolder;
 }
+.nav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
 nav{
     text-align: center;
     background-color: #EFEFEF;
@@ -15,7 +22,7 @@ nav{
     margin-bottom: 10px;
 }
 nav a{
-    padding: 3px;
+    padding: 10px;
 }
 .feature{
     padding: 20px;
@@ -36,7 +43,7 @@ section{
     padding-right: 40%;
     padding-bottom: 150px;
     padding-top: 35px;
-    height: 110px;
+    height: auto;
 }
 .sections{
     display: grid;
@@ -52,6 +59,51 @@ footer{
     background-color: #EFEFEF;
     text-align: center;
     padding-top: 35px;
-    padding-bottom: 65px;
+    padding-bottom: 70px;
     font-weight: bold;
+}
+
+@media screen and (min-width:320px){
+    nav a{
+        padding:10px;
+        display: block;
+    }
+    .sections{
+        display: block;
+        text-align: center;
+    }
+    section{
+        display: block;
+        height: auto;
+    }
+    
+}
+
+@media screen and (min-width:768px){
+    nav a{
+        padding:15px;
+        display: inline-block;
+    }
+    .sections{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 25px;
+        text-align: center;
+    }
+    section{
+        display: inline-block;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width:375px){
+    nav a{
+        padding:10px;
+    }
+}
+
+@media screen and (min-width:425px){
+    nav a{
+        padding:10px;
+    }
 }
