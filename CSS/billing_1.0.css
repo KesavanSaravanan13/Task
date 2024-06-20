@@ -84,7 +84,14 @@ input:focus {
     outline: none;
     padding: 30px;
 }
-
+show{
+    text-decoration: underline;
+    color: gray; 
+    padding-top: 20px; 
+    padding-right: 30px; 
+    font-size: large; 
+    font-weight: 600;
+}
 @media screen and (max-width:768px){
     #continueButton{
         width: 120px;
