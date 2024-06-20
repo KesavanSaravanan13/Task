@@ -6,7 +6,23 @@ input[type="text"] {
     height: 64px;
     border: none;
 }
-
+body{
+    background-color: #e4e7ed;
+}
+#headDiv{
+    background-color: #3c3c3b;
+    margin-top: 2px;
+}
+#alreadyAccount{
+    font-size: small;
+    font-weight: 500;
+}
+#signIn{
+    color: #6bc4df;
+    display: inline; 
+    width: auto; 
+    padding-left: 3px;
+}
 * {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -84,7 +100,7 @@ input:focus {
     outline: none;
     padding: 30px;
 }
-show{
+#show{
     text-decoration: underline;
     color: gray; 
     padding-top: 20px; 
