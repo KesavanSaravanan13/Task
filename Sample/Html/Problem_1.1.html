@@ -1,46 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="m-0 h-100" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Problem_1.0</title>
     <link rel="stylesheet" href="/Daily Problems/Task/CSS/bootstrap.min.css"/>
     <style>
-        .Columns{
-            color: black;
+        div[id="color"]{
             background-color: #EFEFEF;
-            height: auto;
-            margin-bottom: 5px;
-            margin-left: auto;
-            margin-right: auto
         }
 
-        [class="flex-fill pb-xs-2 d-xs-block d-md-inline-block align-item-md-strech"]{
-            padding: 10px;
-            text-align: center;
-            width: auto;
-            height: auto;
-            background-color: #EFEFEF;
-        }
-        
     </style>
 </head>
-<body class="m-2">
-    <header class="container-fluid container-xl-8 p-3 text-center text-black bg-primary">Login</header>
-    <nav class=" flex flex-md-column flex-xs-row text-center p-3 my-2" style="background-color: #EFEFEF;">
-        <a href="" class="col p-1">Home</a>
-        <a href="" class="col p-1">Product</a>
-        <a href="" class="col p-1">Services</a>   
-        <a href="" class="col p-1">About</a>
-        <a href="" class="col p-1">Contact</a>
+<body class="m-2 h-100">
+    <header class="mx-3">
+        <div class="row text-center" id="color">
+            <div class="col p-3 fs-3"><b>Logo</b></div>
+        </div>
+    </header>
+    <nav class="mx-3">
+        <div class="row text-center my-2 justify-content-center" id="color">
+            <a href="" class="col-8 col-sm-1 p-3 px-md-4">Home</a>
+            <a href="" class="col-8 col-sm-1 p-3 px-md-4">Service</a>
+            <a href="" class="col-8 col-sm-1 p-3 px-md-4">Product</a>
+            <a href="" class="col-8 col-sm-1 p-3 px-md-4">About</a>
+            <a href="" class="col-8 col-sm-1 p-3 px-md-4">Contact</a>
+        </div>
     </nav>
-    <div class="container-fluid pb-5 text-center text-black bg-primary">Feature</div>
-    <div class=" flex flex-md-column flex-xs-row gap-2 ">
-        <div class="flex-fill pb-xs-2 d-xs-block d-md-inline-block align-item-md-strech">Column One</div>
-        <div class="flex-fill pb-xs-2 d-xs-block d-md-inline-block align-item-md-strech">Column Two</div>
-        <div class="flex-fill pb-xs-2 d-xs-block d-md-inline-block align-item-md-strech">Column Three</div>
-    </div>
-    <footer class="flex flex-direction p-3 text-center text-black bg-primary position-fixed left-0 bottom-0">@Copyright 2011</footer>
-    <!-- d-xs-block d-lg-inline-block d-xxl-inline-block d-md-inline-block -->
+    <main class="mx-3" style="height: 500px;">
+        <div class="row text-center my-2 h-50 pb-5" id="color">
+            <div class="col pb-5">Feature</div>
+        </div>
+        <div class="row text-center justify-content-center h-50 gap-2 gap-sm-3">
+            <div class="col-12 pt-3 col-sm" id="color">Column One</div>
+            <div class="col-12 pt-3 col-sm" id="color">Column Two</div>
+            <div class="col-12 pt-3 col-sm" id="color">Column Three</div>
+        </div>
+    </main>
+    <footer class="mx-3 mb-5 mb-sm-3" style="margin-top: 100px;" id="footer">
+        <div class="row justify-content-center" >
+            <div class="col-12 p-4 text-center" id="color">@Copyright 2011</div>
+        </div>
+    </footer>
 </body>
 </html>

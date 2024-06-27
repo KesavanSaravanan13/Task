@@ -1,0 +1,35 @@
+*{
+    font-family: "Poppins";
+}
+label{
+    color: #cbcfd3;
+    font-size: small;
+}
+input{
+    border: 1px solid #cbcfd3;
+    border-radius: 5px;
+    font-size: smaller;
+}
+::placeholder{
+    color: black;
+    font-weight: 500;
+    font-size:small;
+}
+
+#button{
+    background-color: #568cf9;
+    color: white;
+    border:none;
+    border-radius: 5px;
+}
+p{
+    font-size: small;
+}
+#otherCol{
+    background: linear-gradient(to bottom, #76a3e6 0%, #2e5ebe 100%);
+    color: #90afe4;
+}
+#TopLogo{
+    color: #568cf9;
+    
+}
