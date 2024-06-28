@@ -219,6 +219,11 @@ td[class="red"]{
     
     
  }
+ 
+.tri{
+    color: #568cf9;
+}
+
  *::-webkit-scrollbar{
     display: none;
  }

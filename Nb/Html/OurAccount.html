@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OverView-Our Account</title>
     <link rel="stylesheet" href="/CSS/bootstrap.min.css" />
-    <link rel="stylesheet" href="/CSS/OurAccount.css" />
+    <link rel="stylesheet" href="/CSS/OurAccount.css"  />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
@@ -16,10 +16,9 @@
             <!--Left from inside Main Row-->
             <div class="row p-0 m-0 sidebar">
                 <div class="d-flex p-lg-3 px-0 ps-3 justify-content-center">
-                    <img src="/Assests/Nb2.png" class="d-none d-lg-inline-block text-center" />
-                    <img src="/Assests/Nb2_Small.png" class="d-inline-block d-lg-none text-center" />
+                    <img src="/Assests/Nb2.png" class="d-none d-lg-inline-block text-center" /> <!--Logo over the side bar-->
                 </div>
-                <div class=" mt-3 p-lg-0 p-xl-2">
+                <div class=" mt-3 p-lg-0 p-xl-2"> <!--Side bar Links-->
                     <div class="col-12 w-auto" id="active">
                         <a href="/Html/OurAccount.html" class="m-0 p-0 text-decoration-none">
                             <img class="text-start mx-4 mx-4 mx-lg-2 my-3 my-lg-0 me-sm-2 " src="/Assests/Overview.png"
@@ -85,9 +84,9 @@
         </div>
         <div class="col-12 col-lg-9 col-xl-10 px-0 flex-lg-fill flex-xl-fill" id="rightCol">
             <!--Right Column inside the Main Row-->
-            <ul class="d-flex px-0 m-0 flex-wrap text-center">
+            <ul class="d-flex px-0 m-0 flex-wrap text-center"> <!--Nav Bar-->
                 <li class="flex-shrink-1 d-inline-block d-lg-none p-2" id="Logo"><img src="/Assests/Nb2_Small.png"
-                        class="p-0" width="40px" height="30px" /></li>
+                        class="p-0" width="40px" height="30px" /></li>   
                 <li class="flex-grow-1 d-none d-md-inline-block  text-md-start text-dark text-opacity-50 fw-bold py-3 ps-2 ps-sm-3"
                     id="overview">OVERVIEW</li>
                 <li class="flex-grow-1 d-inline-block d-md-none py-3 ps-2 ps-sm-3" id="overview"></li>
@@ -109,14 +108,14 @@
                 <li class="p-0 d-flex align-items-center d-inline-block d-lg-none">
                     <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#collapseOne"
                         aria-controls="collapseOne" type="button"><img src="/Assests/menu.png" width="18px"
-                            height="18px" alt=""></button>
+                            height="18px" alt=""></button>  <!--OffCanvas button-->
                     <div class="offcanvas offcanvas-end " id="collapseOne" aria-labelledby="collapseOne" tabindex="-1">
                         <div class="offcanvas-header text-center d-flex justify-content-between">
                             <img src="/Assests/Nb2.png" />
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
-                        <div class="mt-3 offcanvas-body p-0">
+                        <div class="mt-3 offcanvas-body p-0"> <!--OffCanvas Body-->
                             <div class="col-12 w-auto text-start" id="active">
                                 <a href="/Html/OurAccount.html" class="m-0 p-0 text-decoration-none">
                                     <img class="text-start mx-4 mx-4 mx-lg-2 my-3 my-lg-0 me-sm-2 "
@@ -182,13 +181,13 @@
             </ul>
             <div class="row m-0 rightbelow"> <!--row below the Nav bar-->
                 <div class=" p-4 px-lg-0 pe-sm-0  pb-4 p-lg-1" id="oveviewLeft">
-                    <div class="row m-0 px-lg-3 favAccount">
+                    <div class="row m-0 px-lg-3 favAccount"> <!--Row below the Nav bar-->
                         <div class="col-12 ms-lg-0 mt-4 px-lg-2 p-0 favBox">
                             <h6 class="mt-2">Favorite Accounts</h6>
                             <p>All Active accounts are listed below</p>
                         </div>
-                        <div class="row m-0 d-flex flex-nowrap flex-lg-wrap scroll p-0 favToggles">
-                            <img src="/Assests/drop-down-arrow.png" class="m-0 p-0" id="dropright" alt="">
+                        <div class="row m-0 d-flex flex-nowrap flex-lg-wrap scroll p-0 favToggles"> <!--Flex row [ for the Oerflow ] -->
+                            <span class="m-0 p-0 tri" id="dropright">&#9654;</span> <!--Right drop for the active triangle-->
                             <div class="col-8 col-sm-4 col-lg-12 d-block my-2 mx-2 mx-lg-0 p-0 m-0 " id="boxB">
                                 <a href="/Html/OurAccount.html" style="background-color: #568cf9; color: white;"
                                     class="d-block p-0 m-0 text-decoration-none rounded-3">
@@ -521,7 +520,7 @@
                                                 <div class="col-8 p-0 flex-grow-1 ms-2" style="font-weight: 500;">
                                                     Monthly
                                                     Expenses Flow</div>
-                                                <div class="col-2 p-0 flex-shrink-1" style="color: #568cf9;"><img
+                                                <div class="col-2 p-0 flex-shrink-1 text-end me-3" style="color: #568cf9;"><img
                                                         src="/Assests/close.png" class="ms-4" width="7px" height="7px"
                                                         alt=""></div>
                                             </div>
@@ -535,8 +534,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-12 col-xl-3 p-0 m-0 mt-3 mt-xl-0">
-                            <div class="card m-0 p-0 col-12 col-lg-12 col-xl-12 table1">
+                        <div class="col-12 col-lg-12 col-xl-3 p-0 m-0 mt-3 mt-xl-0 table1">
+                            <div class="card m-0 p-0 col-12 col-lg-12 col-xl-12 ">
                                 <div class="card-body pt-2 d-flex justify-content-between p-0 py-1 pe-2 pb-2 title">
                                     <div class="col-10 px-2" style="font-weight: 500;">Connected Cards</div>
                                     <div class="col-2 px-2 text-end" style="color: #568cf9;"><img
