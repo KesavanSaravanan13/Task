@@ -1,6 +1,13 @@
 *{
     font-family: "Poppins";
 }
+.sidebar{
+    position: sticky; 
+    top: 0;
+}
+a>p:only-of-type{
+    font-size: 14px;
+}
 div[class="col-12 w-auto"]:hover {
     background-color: #f2f4f8;
     color: black;
@@ -69,28 +76,122 @@ div[class="col-12 w-auto text-start"] {
 ul {
     list-style-type: none;
     gap: 2px;
+    list-style-type: none; 
+    position: sticky; 
+    top:0; 
+    z-index: 1;
 }
 
 ul li {
     background-color: white;
     
 }
+.bellbutton{
+    width: 18px; 
+    height:18px;
+}
+.badge{
+    width: 20px; height: 17px;
+}
 #oveviewLeft{
     background-color: #f2f4f7;
     
+}
+
+.favAccount{
+    position: sticky; 
+    top: 62px; 
+    height: max-content;
+}
+
+.favBox>h6{
+    font-size: 16px; 
+    font-weight: 600;
+}
+.favBox>p{
+    font-size: 12px;
+}
+
+.favToggles{
+    position: relative;
 }
 
 div[class="col-12 w-auto"]>img{
     margin-left: 42px;
     
 }
-
+.firstRow{
+    font-weight: 500; 
+    font-size: 13px;
+}
 #rightCol {
     background-color: #e6ebf2;
     
     
 }
+.row > .tt{
+    font-size: 12px;
+}
+.rightrightcol{
+    overflow: auto; 
+    background-color: #e6ebf2;
+}
+.trt>h6{
+    font-size: 16px; 
+    font-weight: 600;
+}
+.rt>h6{
+    font-size: 15px;
+}
 
+.table1{
+    overflow: auto; 
+    border-radius: 10px; 
+    border: none;  
+    background-color: white;
+}
+
+.table1>.card{
+    border:none; 
+    position: static; 
+    z-index: 0;
+}
+.table1body td{
+    font-size: 12px; 
+    font-weight:500;
+}
+.table1body th{
+    font-size: 10px;
+}
+.table2{
+    overflow: auto; 
+    border-radius: 10px; 
+    border: none;  
+    background-color: white;
+}
+.table2 > .card{
+    border:none; 
+    position: static; 
+    z-index: 0;
+}
+.title{
+    height: fit-content; 
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+.title > .tt{
+    height: fit-content; 
+    font-weight: 500; 
+    font-size: 16px;
+}
+
+td>.btn{
+    background-color: #568cf9; 
+    color: white; 
+    font-size: 12px;
+}
+.vt{
+    font-size: 10px;
+}
 [class="btn dropdown-toggle px-2 py-1 me-0 me-sm-4"]{
     border: 1px solid #568cf9;
     background-color: transparent;
@@ -167,3 +268,23 @@ div[class="col-12 w-auto"]>img{
         width: 75%;
     }
 }
+
+#dropright{
+    position: absolute; 
+    width: auto;
+    height: auto;
+    right: -10px;
+    top:50px;
+    /* display: none; */
+}
+@media screen and (max-width:800px) {
+    #dropright{
+        position: absolute; 
+        width: auto;
+        height: auto;
+        right: -10px;
+        top:50px;
+        display: none;
+    }
+}
+
