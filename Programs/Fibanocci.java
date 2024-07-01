@@ -12,7 +12,7 @@ public class Fibanocci {
             a[i]=a[i-1]+a[i-2];
 
         }
-        System.out.print("The First "+value+" Fibonacci number is "+);
+        System.out.print("The First "+value+" Fibonacci number is : ");
         for(int i=0;i<value;i++){
             System.out.print(a[i]+" ");
         }
