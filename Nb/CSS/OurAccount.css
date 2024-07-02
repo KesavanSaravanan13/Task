@@ -96,7 +96,9 @@ ul li {
     height:18px;
 }
 .badge{
-    width: 20px; height: 17px;
+    width: 15px; height: 15px;
+    font-size: 10px;
+    left: 20px;
 }
 #oveviewLeft{
     background-color: #f2f4f7;
@@ -146,7 +148,7 @@ div[class="col-12 w-auto"]>img{
     font-weight: 600;
 }
 .rt>h6{
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .table1{
@@ -197,7 +199,7 @@ td>.btn{
 .vt{
     font-size: 10px;
 }
-[class="btn dropdown-toggle px-2 py-1 me-0 me-sm-4"]{
+[class="btn dropdown-toggle mt-2 mt-md-0 px-2 py-1 me-0"]{
     border: 1px solid #568cf9;
     background-color: transparent;
     color: #568cf9;
@@ -254,6 +256,15 @@ td>.btn{
         background-color: #f2f4f7;
         width: 230px;
     }
+
+    /* .rt{
+        width: 50px;
+        margin-right: 20px;
+    }
+
+    .rt > h6{
+        display: inline;
+    } */
  }
 
  #active{
@@ -291,5 +302,16 @@ td>.btn{
         top:50px;
         display: none;
     }
+}
+
+@media screen and (min-width:1450px){
+    .rt{
+        width: fit-content;
+    }
+    .rt > h6{
+        width: auto;
+        margin-right: 40px;
+    }
+
 }
 

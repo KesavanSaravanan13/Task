@@ -29,6 +29,7 @@ p{
 #otherCol{
     background: linear-gradient(to bottom, #76a3e6 0%, #2e5ebe 100%);
     color: #90afe4;
+    height: 120px;
 }
 #TopLogo{
     color: #568cf9;
