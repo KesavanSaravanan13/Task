@@ -249,7 +249,7 @@ td>.btn{
 
  @media screen and (min-width:1440px){
     .rightbelow{
-        height :94%;
+        height :93.8%;
         
     }
     #oveviewLeft{
@@ -314,4 +314,9 @@ td>.btn{
     }
 
 }
-
+@media screen and (min-width:1500px){
+    .rightbelow{
+        height :96%;
+        
+    }
+}
