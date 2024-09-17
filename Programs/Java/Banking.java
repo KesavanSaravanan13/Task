@@ -42,6 +42,7 @@ class Account extends Customer{
         this.customer=customer;
         this.balance=balance;
     }
+
     public double deposit(double amount) {
         customer.balance+=amount;
         return customer.balance;
